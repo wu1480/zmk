@@ -78,7 +78,7 @@
                 &trans      &trans     &trans        &trans          &trans
                 &kp DEL    	&trans     &trans        &trans          &trans           
             >;  
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_FF C_RW &inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         };
     };
